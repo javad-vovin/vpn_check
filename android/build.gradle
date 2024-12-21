@@ -27,6 +27,7 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 29
 
+    namespace 'com.cr0manty.vpn_check'
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
